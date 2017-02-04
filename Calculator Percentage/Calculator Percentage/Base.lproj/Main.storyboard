@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Love_Calc_temp_caseinsensitive_renameulator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="6KM-Vp-8S6">
+                                <rect key="frame" x="60" y="150" width="300" height="120"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Your Name" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="GAP-Ty-hOc">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="52.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Crush's Name" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="yOa-yC-fpC">
+                                        <rect key="frame" x="0.0" y="67.5" width="300" height="52.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Love Calculator" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gnb-0a-sbN">
+                                <rect key="frame" x="161.5" y="60" width="277.5" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pua-JT-SEF">
+                                <rect key="frame" x="0.0" y="276" width="600" height="70"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <state key="normal" title="Calculate">
+                                    <color key="titleColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Calculate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="29x-RS-upS"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="lovePercentage.png" translatesAutoresizingMaskIntoConstraints="NO" id="Zvx-Lo-slw">
+                                <rect key="frame" x="0.0" y="346" width="600" height="254"/>
+                                <color key="backgroundColor" red="0.98431372549019602" green="0.0" blue="0.36470588235294116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Zvx-Lo-slw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="3Ly-70-Wmb"/>
+                            <constraint firstItem="6KM-Vp-8S6" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="130" id="6kc-Iy-5uE"/>
+                            <constraint firstItem="6KM-Vp-8S6" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.8" id="BmM-Wa-WyJ"/>
+                            <constraint firstItem="6KM-Vp-8S6" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.18" id="J2M-mO-Nob"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pua-JT-SEF" secondAttribute="trailing" constant="-20" id="PR5-ta-J5F"/>
+                            <constraint firstItem="pua-JT-SEF" firstAttribute="top" secondItem="6KM-Vp-8S6" secondAttribute="bottom" constant="18" id="QL3-dH-UNs"/>
+                            <constraint firstItem="Zvx-Lo-slw" firstAttribute="top" secondItem="pua-JT-SEF" secondAttribute="bottom" id="ST5-S3-D09"/>
+                            <constraint firstItem="Gnb-0a-sbN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="60" id="YgV-v2-Hob"/>
+                            <constraint firstAttribute="trailing" secondItem="Zvx-Lo-slw" secondAttribute="trailing" id="bEO-z1-WzD"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Zvx-Lo-slw" secondAttribute="bottom" id="ifc-eV-6yi"/>
+                            <constraint firstItem="pua-JT-SEF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="jjl-Tm-MLD"/>
+                            <constraint firstItem="6KM-Vp-8S6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="nq8-cf-6Fg"/>
+                            <constraint firstItem="Gnb-0a-sbN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="q0O-A7-jS3"/>
+                            <constraint firstItem="6KM-Vp-8S6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vkL-Wb-gP0"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="nq8-cf-6Fg"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="firstNameTextField" destination="GAP-Ty-hOc" id="0A1-O6-KmK"/>
+                        <outlet property="secondNameTextField" destination="yOa-yC-fpC" id="pU1-wE-FNl"/>
+                        <segue destination="Y0f-aD-ZBk" kind="show" identifier="calculate" id="W5Y-Ps-NLh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="294"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="R8C-AY-iKC">
+            <objects>
+                <viewController id="Y0f-aD-ZBk" customClass="SecondViewController" customModule="Love_Calc_temp_caseinsensitive_renameulator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nNP-JC-qNe"/>
+                        <viewControllerLayoutGuide type="bottom" id="TRC-5f-o8O"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Hib-NI-Z0k">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YEs-sF-2vW">
+                                <rect key="frame" x="276" y="288.5" width="49" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.98952323720000002" green="0.98952323720000002" blue="0.98952323720000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FNg-BX-dWH">
+                                <rect key="frame" x="529" y="28" width="51" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Close"/>
+                                <connections>
+                                    <segue destination="ipO-YU-9H8" kind="unwind" unwindAction="unwindSegue:" id="gLZ-gb-SEr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MKi-h5-GhA">
+                                <rect key="frame" x="266" y="550" width="68" height="30"/>
+                                <state key="normal" title="+ Contact">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="emailButton:" destination="Y0f-aD-ZBk" eventType="touchUpInside" id="KtO-wo-9Aq"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ovM-tb-5NN">
+                                <rect key="frame" x="245" y="135" width="110.5" height="55"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="46"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.68516663557153401" blue="0.73978757428580111" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="YEs-sF-2vW" firstAttribute="centerX" secondItem="Hib-NI-Z0k" secondAttribute="centerX" id="87g-yz-qEv"/>
+                            <constraint firstItem="FNg-BX-dWH" firstAttribute="trailing" secondItem="Hib-NI-Z0k" secondAttribute="trailingMargin" id="Nev-RS-GNx"/>
+                            <constraint firstItem="YEs-sF-2vW" firstAttribute="centerY" secondItem="Hib-NI-Z0k" secondAttribute="centerY" id="Txq-Xe-bmD"/>
+                            <constraint firstItem="FNg-BX-dWH" firstAttribute="top" secondItem="nNP-JC-qNe" secondAttribute="bottom" constant="8" id="fST-U4-AY0"/>
+                            <constraint firstItem="MKi-h5-GhA" firstAttribute="centerX" secondItem="Hib-NI-Z0k" secondAttribute="centerX" id="geJ-Jn-dWr"/>
+                            <constraint firstItem="TRC-5f-o8O" firstAttribute="top" secondItem="MKi-h5-GhA" secondAttribute="bottom" constant="20" id="hoY-xg-BYH"/>
+                            <constraint firstItem="ovM-tb-5NN" firstAttribute="centerX" secondItem="Hib-NI-Z0k" secondAttribute="centerX" id="mfq-It-FOB"/>
+                            <constraint firstItem="ovM-tb-5NN" firstAttribute="top" secondItem="nNP-JC-qNe" secondAttribute="bottom" constant="115" id="nDZ-yD-eYf"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="MlK-Bs-Bww"/>
+                    <connections>
+                        <outlet property="percentageLabel" destination="ovM-tb-5NN" id="CMb-Bd-yRw"/>
+                        <outlet property="quoteLabel" destination="YEs-sF-2vW" id="nsJ-Tw-3b2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Da-8y-q49" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="ipO-YU-9H8" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="937" y="195"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="lovePercentage.png" width="1024" height="1024"/>
+    </resources>
+</document>

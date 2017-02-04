@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07D466575044D0B31727EE12 /* Pods_Calc_Percent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B69A49686EF2DBB0B33785 /* Pods_Calc_Percent.framework */; };
+		E7168CDC1D5D55CA009E3859 /* api.JSON in Resources */ = {isa = PBXBuildFile; fileRef = E7168CDB1D5D55CA009E3859 /* api.JSON */; };
+		E7168CDE1D5D55F9009E3859 /* JSON1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7168CDD1D5D55F9009E3859 /* JSON1.swift */; };
+		E76B67081D5CB971001065F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76B67071D5CB971001065F9 /* AppDelegate.swift */; };
+		E76B670D1D5CB971001065F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E76B670B1D5CB971001065F9 /* Main.storyboard */; };
+		E76B670F1D5CB971001065F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E76B670E1D5CB971001065F9 /* Assets.xcassets */; };
+		E76B67121D5CB971001065F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E76B67101D5CB971001065F9 /* LaunchScreen.storyboard */; };
+		E76B671D1D5CB971001065F9 /* Calculator_PercentageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76B671C1D5CB971001065F9 /* Calculator_PercentageTests.swift */; };
+		E76B67281D5CB971001065F9 /* Calculator_PercentageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76B67271D5CB971001065F9 /* Calculator_PercentageUITests.swift */; };
+		E797521C1D5E231F00C6BE2B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E797521B1D5E231F00C6BE2B /* SecondViewController.swift */; };
+		E7D54D9A1D5CF7430014F9AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76B67091D5CB971001065F9 /* ViewController.swift */; };
+		FED7142D643DCBDD323A68BD /* Pods_Love_Calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BE769A7916CA967F603977 /* Pods_Love_Calculator.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E76B67191D5CB971001065F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E76B66FC1D5CB971001065F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E76B67031D5CB971001065F9;
+			remoteInfo = "Calculator Percentage";
+		};
+		E76B67241D5CB971001065F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E76B66FC1D5CB971001065F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E76B67031D5CB971001065F9;
+			remoteInfo = "Calculator Percentage";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		179DC7E2BC51D483F107F638 /* Pods-Love Calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Love Calculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Love Calculator/Pods-Love Calculator.release.xcconfig"; sourceTree = "<group>"; };
+		6C430FC8C71DE8A873D57DBD /* Pods-Calc Percent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calc Percent.release.xcconfig"; path = "Pods/Target Support Files/Pods-Calc Percent/Pods-Calc Percent.release.xcconfig"; sourceTree = "<group>"; };
+		85BE769A7916CA967F603977 /* Pods_Love_Calculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Love_Calculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA273F16CDC85BA89F4F0F48 /* Pods-Love Calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Love Calculator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Love Calculator/Pods-Love Calculator.debug.xcconfig"; sourceTree = "<group>"; };
+		E7168CDB1D5D55CA009E3859 /* api.JSON */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = api.JSON; path = "Calculator Percentage/api.JSON"; sourceTree = "<group>"; };
+		E7168CDD1D5D55F9009E3859 /* JSON1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON1.swift; sourceTree = "<group>"; };
+		E76B67041D5CB971001065F9 /* Love Calc.temp_caseinsensitive_renameulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Love Calc.temp_caseinsensitive_renameulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E76B67071D5CB971001065F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E76B67091D5CB971001065F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E76B670C1D5CB971001065F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E76B670E1D5CB971001065F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E76B67111D5CB971001065F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E76B67131D5CB971001065F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E76B67181D5CB971001065F9 /* Love Calc.temp_caseinsensitive_renameulator.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Love Calc.temp_caseinsensitive_renameulator.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E76B671C1D5CB971001065F9 /* Calculator_PercentageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator_PercentageTests.swift; sourceTree = "<group>"; };
+		E76B671E1D5CB971001065F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E76B67231D5CB971001065F9 /* Love Calc.temp_caseinsensitive_renameulator.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Love Calc.temp_caseinsensitive_renameulator.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E76B67271D5CB971001065F9 /* Calculator_PercentageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator_PercentageUITests.swift; sourceTree = "<group>"; };
+		E76B67291D5CB971001065F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E797521B1D5E231F00C6BE2B /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		EE62E02CC3A6A89E8A7B9411 /* Pods-Calc Percent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calc Percent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Calc Percent/Pods-Calc Percent.debug.xcconfig"; sourceTree = "<group>"; };
+		F6B69A49686EF2DBB0B33785 /* Pods_Calc_Percent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Calc_Percent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E76B67011D5CB971001065F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D466575044D0B31727EE12 /* Pods_Calc_Percent.framework in Frameworks */,
+				FED7142D643DCBDD323A68BD /* Pods_Love_Calculator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76B67151D5CB971001065F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76B67201D5CB971001065F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BE07123531118A5F7614349 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE62E02CC3A6A89E8A7B9411 /* Pods-Calc Percent.debug.xcconfig */,
+				6C430FC8C71DE8A873D57DBD /* Pods-Calc Percent.release.xcconfig */,
+				CA273F16CDC85BA89F4F0F48 /* Pods-Love Calculator.debug.xcconfig */,
+				179DC7E2BC51D483F107F638 /* Pods-Love Calculator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9750E5495728F885BC17C016 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6B69A49686EF2DBB0B33785 /* Pods_Calc_Percent.framework */,
+				85BE769A7916CA967F603977 /* Pods_Love_Calculator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E76B66FB1D5CB971001065F9 = {
+			isa = PBXGroup;
+			children = (
+				E7168CDB1D5D55CA009E3859 /* api.JSON */,
+				E7168CDD1D5D55F9009E3859 /* JSON1.swift */,
+				E76B67061D5CB971001065F9 /* Calculator Percentage */,
+				E76B671B1D5CB971001065F9 /* Calculator PercentageTests */,
+				E76B67261D5CB971001065F9 /* Calculator PercentageUITests */,
+				E76B67051D5CB971001065F9 /* Products */,
+				6BE07123531118A5F7614349 /* Pods */,
+				9750E5495728F885BC17C016 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E76B67051D5CB971001065F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E76B67041D5CB971001065F9 /* Love Calc.temp_caseinsensitive_renameulator.app */,
+				E76B67181D5CB971001065F9 /* Love Calc.temp_caseinsensitive_renameulator.xctest */,
+				E76B67231D5CB971001065F9 /* Love Calc.temp_caseinsensitive_renameulator.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E76B67061D5CB971001065F9 /* Calculator Percentage */ = {
+			isa = PBXGroup;
+			children = (
+				E76B67071D5CB971001065F9 /* AppDelegate.swift */,
+				E76B67091D5CB971001065F9 /* ViewController.swift */,
+				E797521B1D5E231F00C6BE2B /* SecondViewController.swift */,
+				E76B670B1D5CB971001065F9 /* Main.storyboard */,
+				E76B670E1D5CB971001065F9 /* Assets.xcassets */,
+				E76B67101D5CB971001065F9 /* LaunchScreen.storyboard */,
+				E76B67131D5CB971001065F9 /* Info.plist */,
+			);
+			path = "Calculator Percentage";
+			sourceTree = "<group>";
+		};
+		E76B671B1D5CB971001065F9 /* Calculator PercentageTests */ = {
+			isa = PBXGroup;
+			children = (
+				E76B671C1D5CB971001065F9 /* Calculator_PercentageTests.swift */,
+				E76B671E1D5CB971001065F9 /* Info.plist */,
+			);
+			path = "Calculator PercentageTests";
+			sourceTree = "<group>";
+		};
+		E76B67261D5CB971001065F9 /* Calculator PercentageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E76B67271D5CB971001065F9 /* Calculator_PercentageUITests.swift */,
+				E76B67291D5CB971001065F9 /* Info.plist */,
+			);
+			path = "Calculator PercentageUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E76B67031D5CB971001065F9 /* Love Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E76B672C1D5CB971001065F9 /* Build configuration list for PBXNativeTarget "Love Calculator" */;
+			buildPhases = (
+				7E60CF18EAEB1EEBD33804F8 /* [CP] Check Pods Manifest.lock */,
+				E76B67001D5CB971001065F9 /* Sources */,
+				E76B67011D5CB971001065F9 /* Frameworks */,
+				E76B67021D5CB971001065F9 /* Resources */,
+				FD4AB4F0FD4E8D2F99AC99BF /* [CP] Embed Pods Frameworks */,
+				417997C7C26DDB4EF92C7D89 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Love Calculator";
+			productName = "Calculator Percentage";
+			productReference = E76B67041D5CB971001065F9 /* Love Calc.temp_caseinsensitive_renameulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E76B67171D5CB971001065F9 /* Love CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E76B672F1D5CB971001065F9 /* Build configuration list for PBXNativeTarget "Love CalculatorTests" */;
+			buildPhases = (
+				E76B67141D5CB971001065F9 /* Sources */,
+				E76B67151D5CB971001065F9 /* Frameworks */,
+				E76B67161D5CB971001065F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E76B671A1D5CB971001065F9 /* PBXTargetDependency */,
+			);
+			name = "Love CalculatorTests";
+			productName = "Calculator PercentageTests";
+			productReference = E76B67181D5CB971001065F9 /* Love Calc.temp_caseinsensitive_renameulator.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E76B67221D5CB971001065F9 /* Love CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E76B67321D5CB971001065F9 /* Build configuration list for PBXNativeTarget "Love CalculatorUITests" */;
+			buildPhases = (
+				E76B671F1D5CB971001065F9 /* Sources */,
+				E76B67201D5CB971001065F9 /* Frameworks */,
+				E76B67211D5CB971001065F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E76B67251D5CB971001065F9 /* PBXTargetDependency */,
+			);
+			name = "Love CalculatorUITests";
+			productName = "Calculator PercentageUITests";
+			productReference = E76B67231D5CB971001065F9 /* Love Calc.temp_caseinsensitive_renameulator.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E76B66FC1D5CB971001065F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = AppCoda;
+				TargetAttributes = {
+					E76B67031D5CB971001065F9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = DFUU36AARG;
+					};
+					E76B67171D5CB971001065F9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = DFUU36AARG;
+						TestTargetID = E76B67031D5CB971001065F9;
+					};
+					E76B67221D5CB971001065F9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = DFUU36AARG;
+						TestTargetID = E76B67031D5CB971001065F9;
+					};
+				};
+			};
+			buildConfigurationList = E76B66FF1D5CB971001065F9 /* Build configuration list for PBXProject "Calculator Percentage" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E76B66FB1D5CB971001065F9;
+			productRefGroup = E76B67051D5CB971001065F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E76B67031D5CB971001065F9 /* Love Calculator */,
+				E76B67171D5CB971001065F9 /* Love CalculatorTests */,
+				E76B67221D5CB971001065F9 /* Love CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E76B67021D5CB971001065F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76B67121D5CB971001065F9 /* LaunchScreen.storyboard in Resources */,
+				E76B670F1D5CB971001065F9 /* Assets.xcassets in Resources */,
+				E7168CDC1D5D55CA009E3859 /* api.JSON in Resources */,
+				E76B670D1D5CB971001065F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76B67161D5CB971001065F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76B67211D5CB971001065F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		417997C7C26DDB4EF92C7D89 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Love Calculator/Pods-Love Calculator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E60CF18EAEB1EEBD33804F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD4AB4F0FD4E8D2F99AC99BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Love Calculator/Pods-Love Calculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E76B67001D5CB971001065F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E797521C1D5E231F00C6BE2B /* SecondViewController.swift in Sources */,
+				E7D54D9A1D5CF7430014F9AC /* ViewController.swift in Sources */,
+				E7168CDE1D5D55F9009E3859 /* JSON1.swift in Sources */,
+				E76B67081D5CB971001065F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76B67141D5CB971001065F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76B671D1D5CB971001065F9 /* Calculator_PercentageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76B671F1D5CB971001065F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76B67281D5CB971001065F9 /* Calculator_PercentageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E76B671A1D5CB971001065F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E76B67031D5CB971001065F9 /* Love Calculator */;
+			targetProxy = E76B67191D5CB971001065F9 /* PBXContainerItemProxy */;
+		};
+		E76B67251D5CB971001065F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E76B67031D5CB971001065F9 /* Love Calculator */;
+			targetProxy = E76B67241D5CB971001065F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E76B670B1D5CB971001065F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E76B670C1D5CB971001065F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E76B67101D5CB971001065F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E76B67111D5CB971001065F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E76B672A1D5CB971001065F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		E76B672B1D5CB971001065F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 2.3;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E76B672D1D5CB971001065F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA273F16CDC85BA89F4F0F48 /* Pods-Love Calculator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				INFOPLIST_FILE = "Calculator Percentage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.love-Calculator";
+				PRODUCT_NAME = "Love Calc.temp_caseinsensitive_renameulator";
+				SWIFT_VERSION = 3.0.1;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E76B672E1D5CB971001065F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 179DC7E2BC51D483F107F638 /* Pods-Love Calculator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				INFOPLIST_FILE = "Calculator Percentage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.love-Calculator";
+				PRODUCT_NAME = "Love Calc.temp_caseinsensitive_renameulator";
+				SWIFT_VERSION = 3.0.1;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E76B67301D5CB971001065F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Calculator PercentageTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Calculator-PercentageTests";
+				PRODUCT_NAME = "Love Calc.temp_caseinsensitive_renameulator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Love Calc.temp_caseinsensitive_renameulator.app/Love Calc.temp_caseinsensitive_renameulator";
+			};
+			name = Debug;
+		};
+		E76B67311D5CB971001065F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Calculator PercentageTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Calculator-PercentageTests";
+				PRODUCT_NAME = "Love Calc.temp_caseinsensitive_renameulator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Love Calc.temp_caseinsensitive_renameulator.app/Love Calc.temp_caseinsensitive_renameulator";
+			};
+			name = Release;
+		};
+		E76B67331D5CB971001065F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Calculator PercentageUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Calculator-PercentageUITests";
+				PRODUCT_NAME = "Love Calc.temp_caseinsensitive_renameulator";
+				SWIFT_VERSION = 3.0.1;
+				TEST_TARGET_NAME = "Calculator Percentage";
+			};
+			name = Debug;
+		};
+		E76B67341D5CB971001065F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Calculator PercentageUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Calculator-PercentageUITests";
+				PRODUCT_NAME = "Love Calc.temp_caseinsensitive_renameulator";
+				SWIFT_VERSION = 3.0.1;
+				TEST_TARGET_NAME = "Calculator Percentage";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E76B66FF1D5CB971001065F9 /* Build configuration list for PBXProject "Calculator Percentage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E76B672A1D5CB971001065F9 /* Debug */,
+				E76B672B1D5CB971001065F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E76B672C1D5CB971001065F9 /* Build configuration list for PBXNativeTarget "Love Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E76B672D1D5CB971001065F9 /* Debug */,
+				E76B672E1D5CB971001065F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E76B672F1D5CB971001065F9 /* Build configuration list for PBXNativeTarget "Love CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E76B67301D5CB971001065F9 /* Debug */,
+				E76B67311D5CB971001065F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E76B67321D5CB971001065F9 /* Build configuration list for PBXNativeTarget "Love CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E76B67331D5CB971001065F9 /* Debug */,
+				E76B67341D5CB971001065F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E76B66FC1D5CB971001065F9 /* Project object */;
+}
